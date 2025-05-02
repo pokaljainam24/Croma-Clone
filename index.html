@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar Like Croma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-lg py-3 gap-4 align-items-center d-flex">
+            <div class="container" style="width: 30% !important;">
+                <a class="navbar-brand logo" style="margin-left: 195px;" href="#">
+                    <img src="./assets/nav-logo/Croma_Logo_acrkvn.svg" alt="Logo">
+                </a>
+
+                <!-- Button trigger dropdown -->
+                <div class="dropdown">
+                    <button type="button" class="btn d-flex align-items-center dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-list text-white fs-3"></i><span class="text-white">Menu</span>
+                    </button>
+                    <ul class="dropdown-menu p-3" style="width: 300px; background-color: rgba(34, 33, 33, 0.795);">
+                        <li class="p-2" style="border-bottom: 1px solid #f5f5f5;"><a class="dropdown-item text-white"
+                                href="#"><svg width="35px" height="35px" viewBox="0 0 35 35">
+                                    <g id="Header-Navigation-Journey" stroke="none" stroke-width="1" fill="none"
+                                        fill-rule="evenodd">
+                                        <g id="02_Header-and-Navigation" transform="translate(-62.000000, -138.000000)">
+                                            <g id="Group-4" transform="translate(46.000000, 68.100505)">
+                                                <g id="Exclusive" transform="translate(16.000000, 69.899495)">
+                                                    <rect id="Rectangle" x="0" y="0" width="35" height="35"></rect>
+                                                    <path
+                                                        d="M6.16992441,26.7991637 C6.23882392,27.0896856 6.42332243,27.3394966 6.68073045,27.4907951 C6.93813846,27.6420937 7.24615003,27.6817688 7.53349707,27.6006404 C14.0535017,25.8004265 20.9393626,25.7997745 27.459708,27.5987537 C27.7469596,27.6797951 28.0548415,27.640124 28.3121669,27.4889128 C28.5694923,27.3377016 28.7539803,27.0880433 28.8229744,26.7976625 L32.3077604,11.9887113 C32.4029211,11.5843243 32.2607709,11.1609355 31.9408579,10.8959069 C31.620945,10.6308783 31.1785032,10.5699679 30.7988762,10.7386918 L23.883125,13.812359 C23.3655053,14.0424124 22.7578886,13.8392075 22.482801,13.3440494 L18.4561057,6.09599648 C18.2632015,5.74876869 17.8972101,5.533418 17.4999959,5.533418 C17.1027817,5.533418 16.7367903,5.74876869 16.5438861,6.09599648 L12.5171949,13.3440494 C12.2421075,13.8392053 11.6344936,14.0424099 11.116875,13.812359 L4.20007383,10.738227 C3.82052249,10.5695374 3.37817438,10.6303879 3.05826992,10.8952964 C2.73836545,11.160205 2.59611404,11.5834533 2.69108574,11.9877994 L6.16992441,26.7991637 Z"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M13.1249904,22.1045098 C16.0336346,21.7984963 18.9663586,21.7984963 21.8750027,22.1045098"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg> Exclusive At Croma</a></li>
+
+                        <li class="p-2" style="border-bottom: 1px solid #f5f5f5;"><a class="dropdown-item text-white"
+                                href="#"><svg width="35px" height="35px" viewBox="0 0 35 35">
+                                    <g id="Header-Navigation-Journey" stroke="none" stroke-width="1" fill="none"
+                                        fill-rule="evenodd">
+                                        <g id="02_Header-and-Navigation" transform="translate(-62.000000, -186.000000)">
+                                            <g id="Group-4" transform="translate(46.000000, 68.100505)">
+                                                <g id="Top-Brand" transform="translate(16.000000, 117.899495)">
+                                                    <rect id="Rectangle" x="0" y="0" width="35" height="35"></rect>
+                                                    <path
+                                                        d="M7.4458248,27.5541752 C6.18746543,26.2958158 7.02208555,23.6539379 6.38158965,22.105933 C5.71762871,20.5012062 3.28125,19.209657 3.28125,17.4999494 C3.28125,15.7902637 5.71764238,14.49875 6.38159785,12.8940533 C7.02209375,11.3460512 6.1874668,8.70418418 7.4458248,7.4458248 C8.70418281,6.18746543 11.3460635,7.02208555 12.894067,6.38158965 C14.4987937,5.71762871 15.790343,3.28125 17.5000506,3.28125 C19.2097363,3.28125 20.50125,5.71764238 22.1059467,6.38159785 C23.6539488,7.02209375 26.2958158,6.1874668 27.5541752,7.4458248 C28.8125346,8.70418281 27.9779145,11.3460635 28.6184104,12.894067 C29.2823713,14.4987937 31.71875,15.790343 31.71875,17.5000506 C31.71875,19.2097363 29.2823576,20.50125 28.6184021,22.1059467 C27.9779063,23.6539488 28.8125332,26.2958158 27.5541752,27.5541752 C26.2958172,28.8125346 23.6539379,27.9779145 22.105933,28.6184104 C20.5012062,29.2823713 19.209657,31.71875 17.4999494,31.71875 C15.7902637,31.71875 14.49875,29.2823576 12.8940533,28.6184021 C11.3460512,27.9779063 8.70418418,28.8125332 7.4458248,27.5541752 Z"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <g id="trophy" transform="translate(10.904668, 13.000000)"
+                                                        stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path
+                                                            d="M2.27349065,0.45325779 L2.27349065,3.57485156 C2.27349065,5.8241728 4.0726204,7.68859263 6.32187989,7.70526799 C7.40911189,7.71351079 8.45464866,7.28738402 9.22636881,6.52149278 C9.99808897,5.75560154 10.4321309,4.71332558 10.4321309,3.62606232 L10.4321309,0.45325779 C10.4321309,0.202930425 10.2292005,0 9.97887309,0 L2.72674844,0 C2.47642108,0 2.27349065,0.202930425 2.27349065,0.45325779 Z"
+                                                            id="Path"></path>
+                                                        <line x1="4.5397796" y1="9.99334278" x2="8.16584193"
+                                                            y2="9.99334278" id="Path"></line>
+                                                        <line x1="6.37448215" y1="7.70538244" x2="6.37448215"
+                                                            y2="9.97167139" id="Path"></line>
+                                                        <path
+                                                            d="M10.3310323,4.5325779 L10.8853887,4.5325779 C11.8866981,4.5325779 12.6984198,3.7208562 12.6984198,2.71954674 L12.6984198,1.81303116 C12.6984198,1.5627038 12.4954894,1.35977337 12.245162,1.35977337 L10.4321309,1.35977337"
+                                                            id="Path"></path>
+                                                        <path
+                                                            d="M2.38476544,4.5325779 L1.81303116,4.5325779 C0.8117217,4.5325779 0,3.7208562 0,2.71954674 L0,1.81303116 C0,1.5627038 0.202930425,1.35977337 0.45325779,1.35977337 L2.26628895,1.35977337"
+                                                            id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg> Top Brands</a></li>
+
+                        <li class="p-2" style="border-bottom: 1px solid #f5f5f5;"><a class="dropdown-item text-white"
+                                href="#"><svg width="35px" height="35px" viewBox="0 0 35 35">
+                                    <g id="Header-Navigation-Journey" stroke="none" stroke-width="1" fill="none"
+                                        fill-rule="evenodd">
+                                        <g id="02_Header-and-Navigation" transform="translate(-62.000000, -237.000000)">
+                                            <g id="Group-4" transform="translate(46.000000, 68.100505)">
+                                                <g id="Croma-Outlet" transform="translate(16.000000, 168.899495)">
+                                                    <rect id="Rectangle" x="0" y="0" width="35" height="35"></rect>
+                                                    <path
+                                                        d="M6.5625,19.0843187 L6.5625,28.4375 C6.5625,29.0415614 7.05218855,29.53125 7.65625,29.53125 L27.34375,29.53125 C27.9478114,29.53125 28.4375,29.0415614 28.4375,28.4375 L28.4375,19.084532"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M7.38751699,5.46875 L27.612483,5.46875 C28.1008208,5.46875 28.5299928,5.79247518 28.6641496,6.26202363 L30.625,13.125 L4.375,13.125 L6.33585039,6.26202363 C6.47000715,5.79247518 6.89917922,5.46875 7.38751699,5.46875 Z"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M13.125,13.125 L13.125,15.3125 C13.125,17.7287458 11.1662458,19.6875 8.75,19.6875 C6.33375422,19.6875 4.375,17.7287458 4.375,15.3125 L4.375,13.125"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M21.875,13.125 L21.875,15.3125 C21.875,17.7287458 19.9162458,19.6875 17.5,19.6875 C15.0837542,19.6875 13.125,17.7287458 13.125,15.3125 L13.125,13.125"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                    <path
+                                                        d="M30.625,13.125 L30.625,15.3125 C30.625,17.7287458 28.6662458,19.6875 26.25,19.6875 C23.8337542,19.6875 21.875,17.7287458 21.875,15.3125 L21.875,13.125"
+                                                        id="Path" stroke="#FFFFFF" stroke-linecap="round"
+                                                        stroke-linejoin="round"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg> Croma Store Locator</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="search-bar d-flex flex-grow-1 mx-3">
+                    <div class="input-group" style="width: 100%; max-width: 500px;">
+                        <input type="text" class="form-control search-input" placeholder="What are you looking for ?">
+                        <span class="input-group-text bg-white border-0">
+                            <i class="bi bi-search text-muted"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-4" style="margin-right: 200px;">
+                    <div class="location text-white d-flex align-items-center gap-1">
+                        <i class="bi bi-geo-alt-fill fs-5"></i>
+                        <span>Mumbai, 400049 <i class="bi bi-pencil"></i></span>
+                    </div>
+                    <div class="user text-white fs-3">
+                        <i class="bi bi-person-fill"></i>
+                    </div>
+                    <div class="cart position-relative text-white fs-4">
+                        <i class="bi bi-cart"></i>
+                        <span
+                            class="cart-count bg-info text-dark rounded-circle position-absolute top-0 start-100 translate-middle p-1 small">0</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Crousal section -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            style="padding-bottom: 15px; min-height: 150px;">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <picture>
+                        <source media="(min-width: 768px)"
+                            srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819158/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/HP_Rotating_AC_28April2025_woftyo.jpg">
+                        <source media="(max-width: 768px)"
+                            srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819163/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/MHP_Rotating_AC_28April2025_adylhv.jpg">
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819158/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/HP_Rotating_AC_28April2025_woftyo.jpg"
+                            class="d-block w-100" alt="AC Banner">
+                    </picture>
+                </div>
+
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 768px)"
+                            srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819159/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/HP_Rotating_nothing_28April2025_gamxy1.jpg">
+                        <source media="(max-width: 768px)"
+                            srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819166/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/MHP_Rotating_nothing_28April2025_ecyxxv.jpg">
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819159/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/HP_Rotating_nothing_28April2025_gamxy1.jpg"
+                            class="d-block w-100" alt="Nothing Banner">
+                    </picture>
+                </div>
+
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 768px)"
+                            srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819159/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/HP_Rotating_monitor_28April2025_xves3k.jpg">
+                        <source media="(max-width: 768px)"
+                            srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819165/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/MHP_Rotating_monitor_28April2025_em4gpb.jpg">
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745819159/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Sanity/HP/April/28042025/HP_Rotating_monitor_28April2025_xves3k.jpg"
+                            class="d-block w-100" alt="Monitor Banner">
+                    </picture>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Slider-2 -->
+        <section id="slider" class="bg-black py-5">
+            <div class="container d-flex gap-3 w-100 overflow-x-scroll no-scrollbar">
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Mobile_sdtrdf.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/TV_vdemgc.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Air_Conditioner_a4hg1z.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/LP_Cooler_ak2tjf.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Laptops_pzewpv.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Head_set_xjj934.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Water_Purifiers_Desktop_phji31.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Ref_biysg7.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Home_theatres_kpwvft.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Washing_machines_izyrnd.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Tablets_yzod4f.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Wearables_iunu7h.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Kitchen_Appliances_yhzevo.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Grooming_vvxudd.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Microwaves_otd6qq.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Speaker_g2mbgn.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Cameras_a6n2jy.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/Fans_ecnoxj.webp" alt="">
+                </div>
+                <div class="slider-item">
+                    <img src="./assets/catagory-img/D_Geyser_i5frr1.webp" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Selling catagory card  -->
+        <div class="container py-5">
+            <h2 class="text-start text-white mb-4">Top Selling Categories</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <!-- JBL Audio Devices -->
+                <div class="col">
+                    <div class="card bg-black">
+                        <a href="https://www.croma.com/audio-video/c/292?q=%3Aprice-asc%3Alower_categories%3A279%3Alower_categories%3A611%3Alower_categories%3A1014%3Alower_categories%3A256%3Alower_categories%3A253%3ASG-ManufacturerDetails-Brand%3AJBL%3Adelivery_mode%3AHome+Delivery"
+                            class="text-decoration-none">
+                            <img src="./assets/top-selling-catagory/Group_40284_jo4xwj.png" alt=""
+                                class="card-img-top d-none d-md-block">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 5G Smartphones -->
+                <div class="col">
+                    <div class="card bg-black">
+                        <a href="https://www.croma.com/phones-wearables/mobile-phones/android-phones/c/95?q=%3Arelevance%3Adelivery_mode%3AHome+Delivery%3ASG-NetworkTechnology-DataGenerationSupported%3A5G"
+                            class="text-decoration-none">
+                            <img src="./assets/top-selling-catagory/Group_40285_wtwbre.png" alt=""
+                                class="card-img-top d-none d-md-block">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Laptops -->
+                <div class="col">
+                    <div class="card bg-black">
+                        <a href="https://www.croma.com/computers-tablets/c/3?q=%3Aprice-asc%3Alower_categories%3A855%3Alower_categories%3A906%3Alower_categories%3A806%3Adelivery_mode%3AHome+Delivery"
+                            class="text-decoration-none">
+                            <img src="./assets/top-selling-catagory/Group_40287_s1ikeh.png" alt=""
+                                class="card-img-top d-none d-md-block">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Kitchen Appliances -->
+                <div class="col">
+                    <div class="card bg-black">
+                        <a href="https://www.croma.com/campaign/best-selling-kitchen-appliances/c/6783?q=%3Arelevance%3Adelivery_mode%3AHome+Delivery"
+                            class="text-decoration-none">
+                            <img src="./assets/top-selling-catagory/LP_Laptops_uyutlc.png" alt=""
+                                class="card-img-top d-none d-md-block">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- advertise slider -->
+        <div id="main" class="container py-5">
+            <h2 class="text-start text-white mb-4">Exciting Bank Offers For You</h2>
+            <div class="sec-cont container p-3">
+                <!-- Image 1 -->
+                <div class="image-container">
+                    <a href="/lp-more-for-your-money">
+                        <img src="./assets/advertise-img/2_Tata_Neu_zy3tgd.webp" class="d-block"
+                            alt="More for your money">
+                    </a>
+                </div>
+                <!-- Image 2 -->
+                <div class="image-container">
+                    <a href="https://www.tatadigital.com/creditcard" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/advertise-img/3_ICICI_Bank_Offers_xgob8r.webp" class="d-block"
+                            alt="Tata Digital Credit Card">
+                    </a>
+                </div>
+                <!-- Image 3 -->
+                <div class="image-container">
+                    <a href="/lp-bank-offers">
+                        <img src="./assets/advertise-img/4_HDFC_Bank_Offers_fibos9.webp" class="d-block"
+                            alt="ICICI Bank Offers">
+                    </a>
+                </div>
+                <!-- Image 4 -->
+                <div class="image-container">
+                    <a href="/lp-bank-offers">
+                        <img src="./assets/advertise-img/Mon_-_AU_webj97.webp" class="d-block" alt="HDFC Bank Offers">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- single card -->
+        <div class="container py-5">
+            <div class="d-flex justify-content-start mb-4">
+                <h2 class="text-white">Latest Launches</h2>
+            </div>
+
+            <div class="rounded-4 overflow-hidden">
+                <a href="/campaign/jbl-tws/c/6875" class="d-block">
+                    <img src="./assets/images/HP_SS_SOH_JBL_Buynow_15april25_fm11ht.webp" alt="JBL Buy Now"
+                        class="img-fluid w-100" style="border-radius: 16px; max-height: 350px; object-fit: cover;">
+                </a>
+            </div>
+        </div>
+
+        <!-- 2 single card -->
+        <div class="container py-5">
+            <div class="d-flex justify-content-start mb-4">
+                <h2 class="text-white">Latest Launches</h2>
+            </div>
+
+            <div class="rounded-4 overflow-hidden">
+                <a href="/campaign/jbl-tws/c/6875" class="d-block">
+                    <img src="./assets/images/HP_SingleSplit_SC_25april2025_vmk23t.webp" alt="JBL Buy Now"
+                        class="img-fluid w-100" style="border-radius: 16px; max-height: 350px; object-fit: cover;">
+                </a>
+            </div>
+        </div>
+
+        <!-- What`s Hot Card section -->
+        <div class="container py-5">
+            <h2 class="text-start text-white mb-4">What’s Hot</h2>
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="rounded-3 overflow-hidden position-relative">
+                        <a href="https://www.croma.com/audio-video/c/292?q=%3ALatestArrival%3Alower_categories%3A611%3Adelivery_mode%3AHome+Delivery%3Adiscount_group%3A60%25+To+80%25%3Adiscount_group%3A80%25+And+Above"
+                            target="_blank">
+                            <img src="./assets/Hot-Deal-Img/HP_Whats_Hot_TWS_25Feb2025_wpf9wo.jpg"
+                                alt="AT_Audio_Special_Desktop" class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="rounded-3 overflow-hidden position-relative">
+                        <a
+                            href="/campaign/best-deals-on-acs/c/5842?q=%3Arelevance%3ASG-ManufacturerDetails-Brand%3ACroma">
+                            <img src="./assets/Hot-Deal-Img/HP_Whats_Hot_AC_28April2025_zybllc.webp"
+                                alt="Best Deals on ACs" class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="rounded-3 overflow-hidden position-relative">
+                        <a
+                            href="/televisions-accessories/c/997?q=%3Aprice-asc%3ASG-TelevisionScreenSpecifications-Size-Inches_range%3A44+-+54%3Adelivery_mode%3AHome+Delivery%3ASG-TelevisionOperatingSystem-OSType%3AGoogle+TV">
+                            <img src="./assets/Hot-Deal-Img/HP_Whats_Hot_TV_28April2025_gguxkj.webp" alt="TV Offers"
+                                class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="rounded-3 overflow-hidden position-relative">
+                        <a
+                            href="/home-appliances/c/5?q=%3Arelevance%3Acategory%3A405%3Acategory%3A896%3Acategory%3A406%3Abrand%3ACroma%3AZAStatusFlag%3Atrue%3AskuStockFlag%3Atrue%3AexcludeOOSFlag">
+                            <img src="./assets/Hot-Deal-Img/HP_Whats_Hot_WM_28April2025_pbrd2f.webp"
+                                alt="Washing Machine Deals" class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shoping card -->
+        <div class="container py-5">
+            <h2 class="text-start text-white mb-4">Summer Special Deals</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gap-5">
+                <div id="shop-card" class="card bg-dark" style="width: 18rem;">
+                    <a class="text-decoration-none"
+                        href="/croma-60-litres-desert-air-cooler-with-water-level-indicator-2025-model-inverter-compatible-white-/p/312250">
+                        <div class="card-footer bg-transparent border-top-0 text-end">
+                            <button type="button" class="btn btn-sm">
+                                <i class="bi bi-heart text-white fs-4"></i>
+                            </button>
+                        </div>
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744262948/312250_0_wwpjso.png?tr=w-1000"
+                            class="card-img-top"
+                            alt="Croma 60 Litres Desert Air Cooler with Water Level Indicator (2025 Model, Inverter Compatible, White)">
+                        <div class="card-body">
+                            <h5 class="card-title overflow-hidden text-white">Croma 60 Litres Desert Air Cooler with
+                                Water Level...</h5>
+                            <p class="card-text">
+                                <span class="text-white fw-bold">₹7,999.00</span>
+                                <span class="text-light text-decoration-line-through ms-2">₹14,500.00</span>
+                            </p>
+                            <div class="text-warning">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="shop-card" class="card bg-dark" style="width: 18rem;">
+                    <a href="/croma-7-in-1-convertible-1-ton-3-star-inverter-split-ac-with-temperature-sensor-2025-model-copper-condenser-crla012ind283264-/p/311918"
+                        class="text-decoration-none text-dark">
+                        <div class="card-footer bg-transparent border-top-0 d-flex justify-content-end">
+                            <button class="btn btn-sm" type="button">
+                                <i class="bi bi-heart text-white fs-4"></i>
+                            </button>
+                        </div>
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1741356999/311918_0_f4kxwv.png?tr=w-1000"
+                            class="card-img-top" alt="Croma 7 in 1 Convertible 1 Ton 3 Star Inverter Split AC">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Croma 7 in 1 Convertible 1 Ton 3 Star Inverter Split AC...
+                            </h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="text-white fw-bold me-2">₹28,990.00</span>
+                                <small class="text-light text-decoration-line-through">₹37,000.00</small>
+                            </div>
+                            <div class="d-flex">
+                                <div class="text-warning">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div id="shop-card" class="card bg-dark" style="width: 18rem;">
+                    <a href="/croma-7-in-1-convertible-1-ton-3-star-inverter-split-ac-with-temperature-sensor-2025-model-copper-condenser-crla012ind283264-/p/311918"
+                        class="text-decoration-none text-dark">
+                        <div class="card-footer bg-transparent border-top-0 d-flex justify-content-end">
+                            <button class="btn btn-sm" type="button">
+                                <i class="bi bi-heart text-white fs-4"></i>
+                            </button>
+                        </div>
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1741356999/311918_0_f4kxwv.png?tr=w-1000"
+                            class="card-img-top" alt="Croma 7 in 1 Convertible 1 Ton 3 Star Inverter Split AC">
+                        <div class="card-body">
+                            <h5 class="card-title text-white">Croma 7 in 1 Convertible 1 Ton 3 Star Inverter Split AC...
+                            </h5>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="text-white fw-bold me-2">₹31,990.00</span>
+                                <small class="text-light text-decoration-line-through">₹42,200.00</small>
+                            </div>
+                            <div class="d-flex">
+                                <div class="text-warning">
+                                    ★★★★★
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="shop-card" class="card bg-dark" style="width: 18rem;">
+                    <a class="text-decoration-none"
+                        href="/croma-60-litres-desert-air-cooler-with-water-level-indicator-2025-model-inverter-compatible-white-/p/312250">
+                        <div class="card-footer bg-transparent border-top-0 text-end">
+                            <button type="button" class="btn btn-sm">
+                                <i class="bi bi-heart text-white fs-4"></i>
+                            </button>
+                        </div>
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744262948/312250_0_wwpjso.png?tr=w-1000"
+                            class="card-img-top"
+                            alt="Croma 60 Litres Desert Air Cooler with Water Level Indicator (2025 Model, Inverter Compatible, White)">
+                        <div class="card-body">
+                            <h5 class="card-title overflow-hidden text-white">C
+                                Croma 40 Litres Personal Air Cooler with Inverter...
+                            </h5>
+                            <p class="card-text">
+                                <span class="text-white fw-bold">₹5,999.00</span>
+                                <span class="text-light text-decoration-line-through ms-2">₹11,500.00</span>
+                            </p>
+                            <div class="text-warning">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deals Croma Card -->
+        <div class="container py-5">
+            <h2 class="text-start text-white mb-4">Deals on Croma Appliances</h2>
+            <div class="row g-3">
+
+                <div class="col-12 col-md-6">
+                    <div class="overflow-hidden rounded-3 position-relative">
+                        <a href="/campaign/acs/c/6793">
+                            <img src="./assets/images/Deals_imh-1.webp" class="img-fluid w-100" alt="Banner 1">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="overflow-hidden rounded-3 position-relative">
+                        <a href="/campaign/croma-offers/c/6807">
+                            <img src="./assets/images/Deals_img-2.webp" class="img-fluid w-100" alt="Banner 2">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Deals Of The Day -->
+        <div class="container bg-black">
+            <h2 class="text-start text-white mb-4 mt-3">Deals of the Day</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-3">
+                    <div class="card border-0">
+                        <a
+                            href="/campaign/best-selling-kitchen-appliances/c/6749?q=%3Arelevance%3Alower_categories%3A1054%3Alower_categories%3A761%3Alower_categories%3A760%3Alower_categories%3A455%3Adelivery_mode%3AHome+Delivery">
+                            <img src="./assets/deals-of-the-day-img/img-1.webp" class="img-fluid rounded"
+                                alt="Kitchen Appliances">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="card border-0">
+                        <a
+                            href="/audio-video/c/292?q=%3Adiscount-desc%3Alower_categories%3A256%3Alower_categories%3A279%3Alower_categories%3A253%3ASG-ManufacturerDetails-Brand%3AboAt%3Adelivery_mode%3AHome+Delivery">
+                            <img src="./assets/deals-of-the-day-img/img-2.webp" class="img-fluid rounded"
+                                alt="BoAt Products">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="card border-0">
+                        <a
+                            href="/computers-tablets/computer-and-laptop-accessories/c/74?q=%3Aprice-asc%3Alower_categories%3A580%3Alower_categories%3A579%3Adelivery_mode%3AHome+Delivery">
+                            <img src="./assets/deals-of-the-day-img/img-3.webp" class="img-fluid rounded"
+                                alt="Computer Accessories">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="card border-0">
+                        <a href="/campaign/samsung-watch7/c/6851">
+                            <img src="./assets/deals-of-the-day-img/img-4.webp" class="img-fluid rounded"
+                                alt="Samsung Watch 7">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- No More Worrying About Your Appliances -->
+        <div class="container my-5">
+            <h2 class="text-white" style="font-size: 2rem;">No More Worrying About Your Appliances</h2>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="border-radius: 0.8rem; overflow: hidden;">
+                            <a href="/lp-zipcare-ac-offers" class="d-block">
+                                <img class="img-fluid"
+                                    src="./assets/images/SingleSplit_Desktop_ZipCare_AC_8April2025_dxiiig-AC Ki Care.webp"
+                                    srcset="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744178109/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Zipcare/April/SingleSplit_Desktop_ZipCare_AC_8April2025_dxiiig.jpg?tr=w-240 240w,
+                                             https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744178109/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Zipcare/April/SingleSplit_Desktop_ZipCare_AC_8April2025_dxiiig.jpg?tr=w-360 360w,
+                                             https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744178109/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Zipcare/April/SingleSplit_Desktop_ZipCare_AC_8April2025_dxiiig.jpg?tr=w-480 480w,
+                                             https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744178109/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Zipcare/April/SingleSplit_Desktop_ZipCare_AC_8April2025_dxiiig.jpg?tr=w-720 720w,
+                                             https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1744178109/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Zipcare/April/SingleSplit_Desktop_ZipCare_AC_8April2025_dxiiig.jpg?tr=w-1024 1024w"
+                                    sizes="100vw" alt="Zipcare AC Offer">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- crousal-2 -->
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745826934/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Blogs/April/28042025/Blogs/Desktop/HP_Blog_4_28April2025_pzbtrz.png"
+                        class="d-block w-100" alt="Banner 1">
+                    <div class="carousel-caption d-none d-md-block" style="top: 200px; margin-right: 100px;">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-6 text-white">
+                                    <h1 style="font-size: 3.5rem !important; font-weight: bold;">Does your home need an
+                                        <br> AC or an air cooler? There’s <br> an easy way to know
+                                    </h1>
+                                    <p class="fs-3">Don't sweat it! We have all the answers</p>
+                                    <a href="#" id="btn" class="btn text-dark fw-bold">Read Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745826933/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Blogs/April/28042025/Blogs/Desktop/HP_Blog_1_28April2025_p8vfox.png"
+                        class="d-block w-100" alt="Banner 2">
+                    <div class="carousel-caption d-none d-md-block" style="top: 180px; margin-right: 120px;">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-6 text-white">
+                                    <h1 style="font-size: 3.5rem !important; font-weight: bold;">Ten years on the wrist,
+                                        and <br>the Apple Watch has gone <br>from a glorified accessory<br>
+                                        to a necessity</h1>
+                                    <p class="fs-3">10 years of the iconic Apple Watch</p>
+                                    <a href="#" id="btn" class="btn fw-bold text-dark">Read Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745826934/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Blogs/April/28042025/Blogs/Desktop/HP_Blog_2_28April2025_ll7wzh.png"
+                        class="d-block w-100" alt="Banner 3">
+                    <div class="carousel-caption d-none d-md-block" style="top: 200px; margin-right: 120px;">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-6 text-white">
+                                    <h1 style="font-size: 3.5rem !important; font-weight: bold;">OnePlus 13T vs OnePlus
+                                        <br>13: What’s the difference
+                                    </h1>
+                                    <p class="fs-3">Here's the exact difference between the two</p>
+                                    <a href="#" id="btn" class="btn fw-bold text-dark">Read Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="carousel-item">
+                    <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1745826934/Croma%20Assets/CMS/LP%20Page%20Banners/2025/Blogs/April/28042025/Blogs/Desktop/HP_Blog_3_28April2025_ptikiw.png"
+                        class="d-block w-100" alt="Banner 4">
+                    <div class="carousel-caption d-none d-md-block mx-3"
+                        style="top: 200px; margin-right: 100px !important;">
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-6 text-white">
+                                    <h1 style="font-size: 3.5rem !important; font-weight: bold;">5 best personal care
+                                        <br>gadgets to unwind and <br>reset your headspace
+                                    </h1>
+                                    <p class="fs-3">It's time to relax and rejuvenate</p>
+                                    <a href="#" id="btn" class="btn fw-bold text-dark">Read Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Navigation -->
+            <button class="carousel-control-prev text-end" style="width: 50px !important;" type="button"
+                data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span style="background-color: rgb(31,28,24);" class="carousel-control-prev-icon p-4"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next text-end" style="width: 50px !important;" type="button"
+                data-bs-target="#carouselExample" data-bs-slide="next">
+                <span style="background-color: rgb(31,28,24);" class="carousel-control-next-icon p-4"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Banner-4 -->
+        <div class="py-5 my-4">
+            <div class="container">
+                <div class="d-flex justify-content-start mb-3">
+                    <h2 class="text-white">Experience Croma On Tata Neu!</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card overflow-hidden rounded-3 border-0">
+                            <a href="https://www.tatadigital.com/native-electronics/slp/mobilesandelectronics"
+                                target="_blank" rel="noopener noreferrer">
+                                <img src="./assets/images/banner-4.webp" class="img-fluid w-100"
+                                    alt="Experience Croma on Tata Neu">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exclusively Curated For You -->
+        <div class="static-banner-section" style="padding: 10px 0; margin: 1rem 0; background-color: #000;">
+            <div class="container" style="padding-right: 0;">
+                <div class="section-heading" style="display: flex; justify-content: start;">
+                    <h2 style="color: white;">Exclusively Curated For You</h2>
+                </div>
+                <div class="banner-grid" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <a href="/croma-store/b/b-0082">
+                        <img src="./assets/images/Croma_Collections_aer8cq-1.webp" alt="Croma Collections"
+                            style="width: 150px; border-radius: 0.8rem;">
+                    </a>
+                    <a href="/lp-express-delivery">
+                        <img src="./assets/images/collection-2.webp" alt="Express Delivery"
+                            style="width: 150px; border-radius: 0.8rem;">
+                    </a>
+                    <a href="/lp-emi-store">
+                        <img src="./assets/images/collection-3.webp" alt="EMI Store"
+                            style="width: 150px; border-radius: 0.8rem;">
+                    </a>
+                    <a href="/campaign/deals-corner/c/6336">
+                        <img src="./assets/images/collection-4.webp" alt="Deals Corner"
+                            style="width: 150px; border-radius: 0.8rem;">
+                    </a>
+                    <a href="/campaign/deal-of-the-week/c/543?q=%3Adiscount-desc">
+                        <img src="./assets/images/collection-5.webp" alt="Deal of the Week"
+                            style="width: 150px; border-radius: 0.8rem;">
+                    </a>
+                    <a href="/lp-croma-e-waste">
+                        <img src="./assets/images/collection-6.webp" alt="E-Waste Program"
+                            style="width: 150px; border-radius: 0.8rem;">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 Banner section -->
+        <div class="container my-4">
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <a href="/giftcard" class="d-block rounded overflow-hidden">
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1710743257/Croma%20Assets/CMS/Testing/2024/March/18th/Exclusively%20Curated%20For%20You/Desktop/Jpg/1Gift_dflts4.png?tr=w-1000"
+                            class="img-fluid rounded" alt="Gift Card">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="/indulge" class="d-block rounded overflow-hidden">
+                        <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1710743258/Croma%20Assets/CMS/Testing/2024/March/18th/Exclusively%20Curated%20For%20You/Desktop/Jpg/Indulge_rve6v9.png?tr=w-1000"
+                            class="img-fluid rounded" alt="Indulge">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Why Croma? -->
+        <div class="py-3 text-white" id="comp_0000BG2Q">
+            <div class="container">
+                <div class="mb-4 text-start">
+                    <h2 class="fw-bold">Why Croma?</h2>
+                </div>
+            </div>
+            <!-- Full-width image outside .container -->
+            <div class="container rounded position-relative">
+                <img src="./assets/images/banner-5.webp" class="img-fluid w-100 d-block rounded" alt="Why Croma">
+            </div>
+        </div>
+
+
+        <!-- Slider -->
+        <section id="slider" class="bg-black py-1 w-100">
+            <div class="container d-flex gap-3 overflow-x-scroll no-scrollbar" style="width: 100%;">
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/apple.webp"
+                            alt="appple">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/boss.webp"
+                            alt="bose">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/croma.webp"
+                            alt="croma">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/dell.webp"
+                            alt="dell">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/haier.webp"
+                            alt="haier">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/hp.webp"
+                            alt="hp">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/jbl.webp"
+                            alt="jbl">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded"
+                            src="./assets/brand-slider-img/lenovo.webp" alt="lenovo">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/oppo.webp"
+                            alt="oppo">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded"
+                            src="./assets/brand-slider-img/phillips.webp" alt="phillips">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded"
+                            src="./assets/brand-slider-img/samsung.webp" alt="samsung">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/sony.webp"
+                            alt="sony">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/vivo.webp"
+                            alt="vivo">
+                    </a>
+                </div>
+                <div class="slider-item">
+                    <a href="link_to_category_page">
+                        <img style="width: 246px !important;" class="rounded" src="./assets/brand-slider-img/mi.webp"
+                            alt="mi">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light py-5 mt-2">
+            <div class="container-fluid p-5">
+                <div class="row p-3 gap-3 d-flex justify-content-around">
+                    <!-- Column 1: Connect with Us -->
+                    <div class="col-md-3 mb-4 mb-md-0 d-flex flex-column gap-3" style="border-right: 1px solid #ffffff; height: 400px; margin-left: 40px;">
+                        <h5>CONNECT WITH US</h5>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="Enter Email ID"
+                                aria-label="Enter Email ID" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary btn-sm" type="button"
+                                id="button-addon2">&rarr;</button>
+                        </div>
+                        <div class="d-flex gap-3 mb-3">
+                            <a href="#" class="text-light"><i class="bi bi-youtube fs-4"></i></a>
+                            <a href="#" class="text-light"><i class="bi bi-facebook fs-4"></i></a>
+                            <a href="#" class="text-light"><i class="bi bi-linkedin fs-4"></i></a>
+                            <a href="#" class="text-light"><i class="bi bi-instagram fs-4"></i></a>
+                            <a href="#" class="text-light"><i class="bi bi-twitter fs-4"></i></a>
+                        </div>
+                        <p class="mt-3 small">&copy; Copyright 2025 Croma. All rights reserved</p>
+                    </div>
+
+                    <!-- Column 2: Useful Links -->
+                    <div class="col-md-3 mb-4 mb-md-0 d-flex flex-column gap-3" style="border-right: 1px solid #ffffff;">
+                        <h5>USEFUL LINKS</h5>
+                        <div class="row fw-bold">
+                            <div class="col-6">
+                                <ul class="list-unstyled small mb-3 d-flex flex-column gap-3">
+                                    <li><a href="#" class="text-light text-decoration-none">About Croma</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Help And Support</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Buying Guide</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Return Policy</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">B2B Orders</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Store Locator</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">E-Waste</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Franchise Opportunity</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-6">
+                                <ul class="list-unstyled small d-flex flex-column gap-3">
+                                    <li><a href="#" class="text-light text-decoration-none">Site Map</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Careers At Croma</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Terms Of Use</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Disclaimer</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Unboxed</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Gift Card</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Croma e-Star</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 4: Products -->
+                    <div class="col-md-3">
+                        <h5>PRODUCTS</h5>
+                        <div class="row mt-3 fw-bold">
+                            <div class="col-6">
+                                <ul class="list-unstyled small d-flex flex-column gap-3">
+                                    <li><a href="#" class="text-light text-decoration-none">Televisions &
+                                            Accessories</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Home Appliances</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Phones & Wearables</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Computers & Tablets</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Kitchen Appliances</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Audio & Video</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Health & Fitness</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled small d-flex flex-column gap-3">
+                                    <li><a href="#" class="text-light text-decoration-none">Grooming & Personal Care</a>
+                                    </li>
+                                    <li><a href="#" class="text-light text-decoration-none">Cameras & Accessories</a>
+                                    </li>
+                                    <li><a href="#" class="text-light text-decoration-none">Smart Devices</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Gaming</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Accessories</a></li>
+                                    <li><a href="#" class="text-light text-decoration-none">Top Brands</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

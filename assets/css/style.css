@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-input {
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.location,
+.user,
+.cart {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-count {
+    background-color: cyan;
+    border-radius: 50%;
+    padding: -5px 10px;
+    font-size: 12px;
+    margin-left: -4px;
+    margin-top: 3px;
+}
+
+.dropdown-item {
+    background-color: rgba(34, 33, 33, 0.795) !important;
+}
+
+.dropdown-item:hover {
+    color: black !important;
+    background-color: rgb(0, 233, 191) !important;
+}
+
+/* Responsive Fixes */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .cart-count {
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+}
+
+.carousel-inner {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.carousel-inner .d-flex {
+    flex-wrap: nowrap;
+}
+
+.carousel-item {
+    transition: none;
+}
+
+.slider-item img {
+    width: 150px !important;
+}
+
+#mini-slider {
+    scrollbar-width: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.sec-cont {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    animation: scroll-left 20s linear infinite;
+}
+
+.image-container {
+    flex: 0 0 auto;
+    max-width: 300px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Keyframes for continuous scrolling */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.shop-card {
+    background-color: rgba(34, 33, 33, 0.795) !important;
+    border-radius: 10px;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.scroll-hidden {
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scroll-hidden::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+#btn{
+    background-color: rgb(18,218,168);
+    padding: 10px 20px;
+}
+

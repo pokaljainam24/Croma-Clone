@@ -27,8 +27,6 @@
 
 ## 🖼️ Screenshots
 
-> Replace these placeholders with real screenshots stored in `./screenshots/`.
-
 |                                     Home Page                                            |      
 | :--------------------------------------------------------------------------------------: | 
 | ![Home](https://github.com/user-attachments/assets/4cf98537-ba93-4827-9b5a-9fc69c3bfa2c) |
